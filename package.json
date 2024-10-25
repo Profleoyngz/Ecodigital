@@ -1,0 +1,26 @@
+{
+  "name": "eco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch assets/styles/scss/main.scss  assets/styles/css/main.css",
+    "build":"purgecss --css assets/styles/css/main.css --content *.html -o assets/styles/css/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lauritaweb/ecoDigital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lauritaweb/ecoDigital/issues"
+  },
+  "homepage": "https://github.com/Lauritaweb/ecoDigital#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.74.1"
+  }
+}
